@@ -1,6 +1,14 @@
 *.class
+.idea*
+*.iml
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+#Folders
+target
+logs
+logback-test.xml
+

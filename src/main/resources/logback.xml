@@ -1,0 +1,15 @@
+i<configuration scan="true">
+
+	<jmxConfigurator />
+
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{HH:mm:ss.SSS} %-5level %logger{55} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="debug">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>
